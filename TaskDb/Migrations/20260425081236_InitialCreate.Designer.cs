@@ -11,8 +11,8 @@ using TaskDb.Data;
 namespace TaskDb.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260425074505_Pipka")]
-    partial class Pipka
+    [Migration("20260425081236_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
